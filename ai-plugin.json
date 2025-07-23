@@ -21,173 +21,98 @@
     "name": "Access Strategy & Design",
     "provider": { "@type": "Organization", "name": "ProAltus Group" },
     "serviceType": "Site surveys, access route planning, compliance consulting",
-    "areaServed": [
-      { "@type": "Country", "name": "United Kingdom" },
-      { "@type": "Place", "name": "London" },
-      { "@type": "Place", "name": "Manchester" },
-      { "@type": "Place", "name": "Birmingham" },
-      { "@type": "Place", "name": "Leeds" },
-      { "@type": "Place", "name": "Liverpool" },
-      { "@type": "Place", "name": "Bristol" },
-      { "@type": "Place", "name": "Glasgow" },
-      { "@type": "Place", "name": "Newcastle" }
-    ],
-    "termsOfService": "https://www.proaltus.co.uk/services-individual/access-strategies-and-consulting",
+    "termsOfService": "https://www.proaltus.co.uk/fall-protection-services/strategy-and-consultancy",
     "keywords": ["BS 7883", "BS 8560", "access route", "risk evaluation"],
     "description": "Bespoke planning and design for safe and compliant access, including site surveys, stakeholder collaboration and route mapping for long‑term asset management."
   },
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Fall Protection",
+    "name": "Fall Protection Consultancy",
+    "provider": { "@type": "Organization", "name": "ProAltus Group" },
+    "serviceType": "Consulting and compliance strategy for fall protection systems",
+    "termsOfService": "https://www.proaltus.co.uk/fall-protection-services/consultancy",
+    "keywords": ["fall protection", "compliance", "risk assessment", "BS 7883"],
+    "description": "Strategic consultancy for designing and reviewing fall protection systems to meet modern safety standards and client-specific needs."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Fall Protection Supply, Install & Certify",
     "provider": { "@type": "Organization", "name": "ProAltus Group" },
     "serviceType": "Design, supply, installation, testing & certification of fall protection systems",
-    "areaServed": [
-      { "@type": "Country", "name": "United Kingdom" },
-      { "@type": "Place", "name": "London" },
-      { "@type": "Place", "name": "Manchester" },
-      { "@type": "Place", "name": "Birmingham" },
-      { "@type": "Place", "name": "Leeds" },
-      { "@type": "Place", "name": "Liverpool" },
-      { "@type": "Place", "name": "Bristol" },
-      { "@type": "Place", "name": "Glasgow" },
-      { "@type": "Place", "name": "Newcastle" }
-    ],
-    "keywords": ["fall arrest", "safe anchors", "LOLER", "PUWER", "BS EN 795", "BS 7883", "permanent systems", "anchor testing"],
-    "description": "Complete fall protection services from strategy and consultancy through to permanent system supply, installation, inspection, certification and remediation."
+    "termsOfService": "https://www.proaltus.co.uk/fall-protection-services/design%2C-supply-and-installation",
+    "keywords": ["fall arrest", "safe anchors", "BS EN 795", "installation", "certification"],
+    "description": "Complete service for permanent fall protection systems including supply, install and re-certification."
   },
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Rope Access Services",
-    "termsOfService": "https://www.proaltus.co.uk/services-individual/rope-access-services",
+    "name": "Fall Protection Testing & Inspection",
     "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "IRATA-certified inspection, maintenance and repairs using rope access techniques",
-    "areaServed": [
-      { "@type": "Country", "name": "United Kingdom" },
-      { "@type": "Place", "name": "London" },
-      { "@type": "Place", "name": "Manchester" },
-      { "@type": "Place", "name": "Birmingham" },
-      { "@type": "Place", "name": "Leeds" },
-      { "@type": "Place", "name": "Liverpool" },
-      { "@type": "Place", "name": "Bristol" },
-      { "@type": "Place", "name": "Glasgow" },
-      { "@type": "Place", "name": "Newcastle" }
-    ],
-    "keywords": [
-      "rope access", "IRATA", "industrial rope access", "abseiling",
-      "abseil inspection", "facade access", "high level access",
-      "vertical work at height", "cladding inspection", "BS 7985"
-    ],
-    "description": "Cost-effective, precision rope-access solutions delivered by IRATA-qualified teams, compliant with BS 7985 and UK work-at-height regulations."
+    "serviceType": "Inspection and testing of fall protection systems",
+    "termsOfService": "https://www.proaltus.co.uk/fall-protection-services/inspection-and-testing",
+    "keywords": ["BS 7883", "testing", "inspection", "certification"],
+    "description": "Certified inspection and testing of fixed fall protection systems across a range of building types."
   },
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Façade & Building Envelope",
+    "name": "Works at Height Consulting",
     "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Cleaning, maintenance, inspection and repairs of façades",
-    "areaServed": [
-      { "@type": "Country", "name": "United Kingdom" },
-      { "@type": "Place", "name": "London" },
-      { "@type": "Place", "name": "Manchester" },
-      { "@type": "Place", "name": "Birmingham" },
-      { "@type": "Place", "name": "Leeds" },
-      { "@type": "Place", "name": "Liverpool" },
-      { "@type": "Place", "name": "Bristol" },
-      { "@type": "Place", "name": "Glasgow" },
-      { "@type": "Place", "name": "Newcastle" }
-    ],
-    "keywords": ["BS 8221-1", "BS 8000", "PPM", "window repair", "cladding cleaning", "facade inspection", "building envelope access"],
-    "description": "One-off repairs, planned preventive maintenance and scheduled inspections of facades and building envelopes, ensuring safety and quality."
+    "serviceType": "Consulting on safe work at height strategies and compliance",
+    "termsOfService": "https://www.proaltus.co.uk/services-individual/works-at-height-consulting",
+    "keywords": ["work at height", "consulting", "risk assessment", "planning"],
+    "description": "Expert guidance for businesses planning or managing work at height, ensuring regulatory compliance and operational safety."
   },
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "Roof Maintenance & Repairs",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Roof inspection, maintenance and repair across tile, slate and flat systems",
-    "areaServed": [
-      { "@type": "Country", "name": "United Kingdom" },
-      { "@type": "Place", "name": "London" },
-      { "@type": "Place", "name": "Manchester" },
-      { "@type": "Place", "name": "Birmingham" },
-      { "@type": "Place", "name": "Leeds" },
-      { "@type": "Place", "name": "Liverpool" },
-      { "@type": "Place", "name": "Bristol" },
-      { "@type": "Place", "name": "Glasgow" },
-      { "@type": "Place", "name": "Newcastle" }
-    ],
-    "keywords": ["BS 5534", "BS 8612", "roofing", "roof inspection", "flat roof repair", "tile roof replacement"],
-    "description": "Expert roofing services—including full replacements and support for other trades—compliant with BS 5534/8612, using safe access and fall protection."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Emergency Works",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Swift emergency intervention for fall protection, facade, roof and water ingress issues",
-    "areaServed": [
-      { "@type": "Country", "name": "United Kingdom" },
-      { "@type": "Place", "name": "London" },
-      { "@type": "Place", "name": "Manchester" },
-      { "@type": "Place", "name": "Birmingham" },
-      { "@type": "Place", "name": "Leeds" },
-      { "@type": "Place", "name": "Liverpool" },
-      { "@type": "Place", "name": "Bristol" },
-      { "@type": "Place", "name": "Glasgow" },
-      { "@type": "Place", "name": "Newcastle" }
-    ],
-    "keywords": ["emergency response", "rapid access", "urgent inspections", "storm damage repair", "fall protection faults", "leak investigation"],
-    "description": "Rapid response teams for urgent work-at-height issues including testing, inspections, repairs and water ingress detection, with professional reporting and guidance."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Bespoke Netting & Debris Containment",
+    "name": "Bespoke Debris Netting Solutions",
     "provider": { "@type": "Organization", "name": "ProAltus Group" },
     "serviceType": "Design and implementation of netting systems for debris and bird protection",
-    "areaServed": [
-      { "@type": "Country", "name": "United Kingdom" },
-      { "@type": "Place", "name": "London" },
-      { "@type": "Place", "name": "Manchester" },
-      { "@type": "Place", "name": "Birmingham" },
-      { "@type": "Place", "name": "Leeds" },
-      { "@type": "Place", "name": "Liverpool" },
-      { "@type": "Place", "name": "Bristol" },
-      { "@type": "Place", "name": "Glasgow" },
-      { "@type": "Place", "name": "Newcastle" }
-    ],
-    "keywords": ["debris containment", "netting", "bird control", "BS EN 1263", "public protection", "bespoke netting"],
-    "description": "Tailored netting and debris containment solutions designed for public and operational environments to maintain safety and continuity."
+    "termsOfService": "https://www.proaltus.co.uk/services-individual/bespoke-netting-solutions",
+    "keywords": ["debris netting", "bird control", "BS EN 1263", "custom netting"],
+    "description": "Tailored netting and containment solutions for public protection during construction, maintenance and access work."
   },
   {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "Façade Cleaning and Decoration – Mayfair, London",
-    "description": "Rope access weed removal and window decoration on a historic building in Mayfair. Delivered under license with minimal disruption, using temporary anchors and DOFF cleaning. Work aligned with local authority standards.",
-    "keywords": ["Mayfair", "DOFF cleaning", "facade", "rope access", "heritage", "temporary anchors"],
-    "locationCreated": "Mayfair, London",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" }
+    "@type": "Service",
+    "name": "Facilities Management Services",
+    "provider": { "@type": "Organization", "name": "ProAltus Group" },
+    "serviceType": "Planned and reactive building fabric maintenance",
+    "termsOfService": "https://www.proaltus.co.uk/services-main/facilities-management-services",
+    "keywords": ["facilities management", "PPM", "reactive works", "building fabric"],
+    "description": "Support for FM providers and managing agents with specialist access maintenance and building fabric services."
   },
   {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "Shopping Centre Debris Containment – Midlands",
-    "description": "Bespoke netting solution installed to protect shoppers and retail operations during overhead maintenance. Engineered containment aligned with BS EN 1263 and Work at Height Regulations 2005.",
-    "keywords": ["debris netting", "shopping centre", "containment", "BS EN 1263"],
-    "locationCreated": "Midlands, UK",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" }
+    "@type": "Service",
+    "name": "External Cleaning",
+    "provider": { "@type": "Organization", "name": "ProAltus Group" },
+    "serviceType": "Specialist high-level cleaning services for building exteriors",
+    "termsOfService": "https://www.proaltus.co.uk/services-individual/external-cleaning",
+    "keywords": ["facade cleaning", "high level cleaning", "DOFF", "jet wash"],
+    "description": "Safe and effective cleaning services for roofs, facades, signage and glazing using rope access and temporary systems."
   },
   {
     "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "Anchor System Testing and Remediation – London Multi-Site",
-    "description": "Inspection and remediation of fixed fall protection systems across several high-rise London properties. Testing to BS 7883:2019 with full certification and client reporting.",
-    "keywords": ["fall protection", "anchor testing", "BS 7883", "multi-site", "certification"],
-    "locationCreated": "London",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" }
+    "@type": "Service",
+    "name": "Glazing",
+    "provider": { "@type": "Organization", "name": "ProAltus Group" },
+    "serviceType": "Access-led glass replacement and maintenance",
+    "termsOfService": "https://www.proaltus.co.uk/services-individual/glazing",
+    "keywords": ["glass replacement", "glazing repair", "high level glazing", "building envelope"],
+    "description": "Safe and precise glazing works carried out via rope access, MEWPs and other compliant access systems."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Roofing",
+    "provider": { "@type": "Organization", "name": "ProAltus Group" },
+    "serviceType": "Roof repair and maintenance across systems",
+    "termsOfService": "https://www.proaltus.co.uk/services-individual/roofing",
+    "keywords": ["roofing", "slate", "flat roof", "repair", "high access"],
+    "description": "High-level roofing services for slate, tiled and flat systems with full access planning and integrated fall protection."
   }
 ]
-
-
