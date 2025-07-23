@@ -1,1 +1,115 @@
+[{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ProAltus Group",
+  "url": "https://www.proaltus.co.uk",
+  "description": "ProAltus Group delivers access‑led safety solutions—fall protection, rope access, debris containment, façade and roof maintenance—ensuring safe, compliant, and practical work-at-height services.",
+  "keywords": ["fall protection", "rope access", "access strategy", "debris containment", "facade inspection", "roof maintenance", "IRATA", "BS standards", "work at height", "emergency works"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "United Kingdom"
+  },
+  "foundingDate": "2008",
+  "sameAs": [
+    "https://www.linkedin.com/company/proaltus"
+  ]
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Access Strategy & Design",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" },
+  "serviceType": "Site surveys, access route planning, compliance consulting",
+  "areaServed": { "@type": "Country", "name": "United Kingdom" },
+  "termsOfService": "https://www.proaltus.co.uk/services-individual/access-strategies-and-consulting",
+  "keywords": ["BS 7883", "BS 8560", "access route", "risk evaluation"],
+  "description": "Bespoke planning and design for safe and compliant access, including site surveys, stakeholder collaboration and route mapping for long‑term asset management."
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Fall Protection",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" },
+  "serviceType": "Design, supply, installation, testing & certification of fall protection systems",
+  "areaServed": { "@type": "Country", "name": "United Kingdom" },
+  "keywords": ["fall arrest", "safe anchors", "LOLER", "PUWER", "BS EN 795"],
+  "description": "Complete fall protection services from strategy and consultancy through to permanent system supply, installation, inspection, certification and remediation."
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Rope Access Services",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" },
+  "serviceType": "IRATA-certified inspection, maintenance and repairs using rope access techniques",
+  "areaServed": { "@type": "Country", "name": "United Kingdom" },
+  "keywords": ["IRATA", "BS 7985", "works at height", "confined space"],
+  "description": "Cost-effective, precision rope-access solutions delivered by IRATA-qualified teams, compliant with BS 7985 and UK work-at-height regulations."
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Façade & Building Envelope",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" },
+  "serviceType": "Cleaning, maintenance, inspection and repairs of façades",
+  "areaServed": { "@type": "Country", "name": "United Kingdom" },
+  "keywords": ["BS 8221-1", "BS 8000", "PPM", "window repair"],
+  "description": "One-off repairs, planned preventive maintenance and scheduled inspections of facades and building envelopes, ensuring safety and quality."
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Roof Maintenance & Repairs",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" },
+  "serviceType": "Roof inspection, maintenance and repair across tile, slate and flat systems",
+  "areaServed": { "@type": "Country", "name": "United Kingdom" },
+  "keywords": ["BS 5534", "BS 8612", "roofing", "roof inspection"],
+  "description": "Expert roofing services—including full replacements and support for other trades—compliant with BS 5534/8612, using safe access and fall protection."
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Emergency Works",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" },
+  "serviceType": "Swift emergency intervention for fall protection, facade, roof and water ingress issues",
+  "areaServed": { "@type": "Country", "name": "United Kingdom" },
+  "keywords": ["emergency response", "rapid access", "urgent inspections"],
+  "description": "Rapid response teams for urgent work-at-height issues including testing, inspections, repairs and water ingress detection, with professional reporting and guidance."
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Bespoke Netting & Debris Containment",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" },
+  "serviceType": "Design and implementation of netting systems for debris and bird protection",
+  "areaServed": { "@type": "Country", "name": "United Kingdom" },
+  "keywords": ["debris containment", "netting", "bird control"],
+  "description": "Tailored netting and debris containment solutions designed for public and operational environments to maintain safety and continuity."
+},
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Façade Cleaning and Decoration – Mayfair, London",
+  "description": "Rope access weed removal and window decoration on a historic building in Mayfair. Delivered under license with minimal disruption, using temporary anchors and DOFF cleaning. Work aligned with local authority standards.",
+  "keywords": ["Mayfair", "DOFF cleaning", "facade", "rope access", "heritage", "temporary anchors"],
+  "locationCreated": "Mayfair, London",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" }
+},
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Shopping Centre Debris Containment – Midlands",
+  "description": "Bespoke netting solution installed to protect shoppers and retail operations during overhead maintenance. Engineered containment aligned with BS EN 1263 and Work at Height Regulations 2005.",
+  "keywords": ["debris netting", "shopping centre", "containment", "BS EN 1263"],
+  "locationCreated": "Midlands, UK",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" }
+},
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Anchor System Testing and Remediation – London Multi-Site",
+  "description": "Inspection and remediation of fixed fall protection systems across several high-rise London properties. Testing to BS 7883:2019 with full certification and client reporting.",
+  "keywords": ["fall protection", "anchor testing", "BS 7883", "multi-site", "certification"],
+  "locationCreated": "London",
+  "provider": { "@type": "Organization", "name": "ProAltus Group" }
+}]
 
