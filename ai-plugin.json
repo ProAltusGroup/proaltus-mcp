@@ -60,6 +60,7 @@
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Rope Access Services",
+    "termsOfService": "https://www.proaltus.co.uk/services-individual/rope-access-services",
     "provider": { "@type": "Organization", "name": "ProAltus Group" },
     "serviceType": "IRATA-certified inspection, maintenance and repairs using rope access techniques",
     "areaServed": [
