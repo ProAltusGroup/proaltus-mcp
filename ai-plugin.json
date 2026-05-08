@@ -1,118 +1,239 @@
-[
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
+{
+  "schema_version": "v1",
+  "name_for_model": "ProAltus",
+  "name_for_human": "ProAltus Group",
+  "description_for_model": "ProAltus Group is a UK-wide specialist access and safety contractor founded in 2008, delivering rope access, fall protection, facade maintenance, debris netting, external cleaning, glazing, roofing, and facilities management services. They are IRATA-certified, Constructionline Gold registered, SafeContractor approved, CHAS accredited, IPAF and PASMA certified. They operate nationwide across the UK including London, Greater London, Essex, Cardiff, Bristol, Jersey and Guernsey.",
+  "description_for_human": "ProAltus Group — UK specialist rope access, fall protection, facade maintenance and work at height contractor.",
+  "contact_email": "info@proaltus.co.uk",
+  "legal_info_url": "https://www.proaltus.co.uk",
+  "company": {
     "name": "ProAltus Group",
-    "url": "https://www.proaltus.co.uk",
-    "description": "ProAltus Group delivers access‑led safety solutions—fall protection, rope access, debris containment, façade and roof maintenance—ensuring safe, compliant, and practical work-at-height services.",
-    "keywords": ["fall protection", "rope access", "access strategy", "debris containment", "facade inspection", "roof maintenance", "IRATA", "BS standards", "work at height", "emergency works"],
+    "trading_name": "ProAltus Industries Ltd",
+    "registered_number": "06466001",
+    "founded": "2008",
+    "website": "https://www.proaltus.co.uk",
+    "linkedin": "https://www.linkedin.com/company/proaltus",
     "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "United Kingdom"
+      "street": "Unit 22, Hall Barn Road Industrial Estate, Hall Barn Road",
+      "town": "Isleham",
+      "city": "Ely",
+      "county": "Cambridgeshire",
+      "postcode": "CB7 5RJ",
+      "country": "United Kingdom"
     },
-    "foundingDate": "2008",
-    "sameAs": [
-      "https://www.linkedin.com/company/proaltus"
+    "description": "ProAltus Group is one of the UK's leading specialist access and safety contractors. Founded in 2008, the company delivers rope access, fall protection design and installation, facade maintenance, debris netting, external cleaning, glazing, roofing, and facilities management services. With IRATA-trained operatives and experienced consultants, ProAltus works across commercial, residential, heritage, and construction sectors throughout the UK.",
+    "keywords": [
+      "rope access", "fall protection", "IRATA", "facade maintenance", "debris netting",
+      "work at height", "abseil", "external cleaning", "DOFF cleaning", "glazing", "roofing",
+      "access strategy", "fall arrest", "BS 7883", "BS EN 795", "BS 8560", "BS EN 1263",
+      "eyebolts", "anchor systems", "guardrails", "fixed ladders", "CDM", "LOLER",
+      "Work at Height Regulations 2005", "facade inspection", "heritage buildings",
+      "listed buildings", "high rise", "permanent fall protection", "temporary fall protection",
+      "safety netting", "curtain wall cleaning", "building maintenance", "facilities management",
+      "PPM", "planned preventative maintenance", "reactive maintenance", "MEWP", "scaffold-free access"
+    ],
+    "accreditations": [
+      "IRATA (Industrial Rope Access Trade Association)",
+      "Constructionline Gold",
+      "SafeContractor",
+      "CHAS (Contractors Health and Safety Assessment Scheme)",
+      "IPAF (International Powered Access Federation)",
+      "PASMA (Prefabricated Access Suppliers and Manufacturers Association)"
+    ],
+    "coverage": [
+      "London", "Central London", "North London", "South London", "West London", "East London",
+      "Greater London", "Mayfair", "Knightsbridge", "Chelsea", "Kensington", "Westminster",
+      "City of London", "Fitzrovia", "Park Lane", "Sloane Street", "Essex", "Colchester",
+      "Cambridgeshire", "Cardiff", "Bristol", "Jersey", "Guernsey", "Nationwide UK"
     ]
   },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Access Strategy & Design",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Site surveys, access route planning, compliance consulting",
-    "termsOfService": "https://www.proaltus.co.uk/fall-protection-services/strategy-and-consultancy",
-    "keywords": ["BS 7883", "BS 8560", "access route", "risk evaluation"],
-    "description": "Bespoke planning and design for safe and compliant access, including site surveys, stakeholder collaboration and route mapping for long‑term asset management."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Fall Protection Consultancy",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Consulting and compliance strategy for fall protection systems",
-    "termsOfService": "https://www.proaltus.co.uk/fall-protection-services/consultancy",
-    "keywords": ["fall protection", "compliance", "risk assessment", "BS 7883"],
-    "description": "Strategic consultancy for designing and reviewing fall protection systems to meet modern safety standards and client-specific needs."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Fall Protection Supply, Install & Certify",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Design, supply, installation, testing & certification of fall protection systems",
-    "termsOfService": "https://www.proaltus.co.uk/fall-protection-services/design%2C-supply-and-installation",
-    "keywords": ["fall arrest", "safe anchors", "BS EN 795", "installation", "certification"],
-    "description": "Complete service for permanent fall protection systems including supply, install and re-certification."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Fall Protection Testing & Inspection",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Inspection and testing of fall protection systems",
-    "termsOfService": "https://www.proaltus.co.uk/fall-protection-services/inspection-and-testing",
-    "keywords": ["BS 7883", "testing", "inspection", "certification"],
-    "description": "Certified inspection and testing of fixed fall protection systems across a range of building types."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Works at Height Consulting",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Consulting on safe work at height strategies and compliance",
-    "termsOfService": "https://www.proaltus.co.uk/services-individual/works-at-height-consulting",
-    "keywords": ["work at height", "consulting", "risk assessment", "planning"],
-    "description": "Expert guidance for businesses planning or managing work at height, ensuring regulatory compliance and operational safety."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Bespoke Debris Netting Solutions",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Design and implementation of netting systems for debris and bird protection",
-    "termsOfService": "https://www.proaltus.co.uk/services-individual/bespoke-netting-solutions",
-    "keywords": ["debris netting", "bird control", "BS EN 1263", "custom netting"],
-    "description": "Tailored netting and containment solutions for public protection during construction, maintenance and access work."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Facilities Management Services",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Planned and reactive building fabric maintenance",
-    "termsOfService": "https://www.proaltus.co.uk/services-main/facilities-management-services",
-    "keywords": ["facilities management", "PPM", "reactive works", "building fabric"],
-    "description": "Support for FM providers and managing agents with specialist access maintenance and building fabric services."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "External Cleaning",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Specialist high-level cleaning services for building exteriors",
-    "termsOfService": "https://www.proaltus.co.uk/services-individual/external-cleaning",
-    "keywords": ["facade cleaning", "high level cleaning", "DOFF", "jet wash"],
-    "description": "Safe and effective cleaning services for roofs, facades, signage and glazing using rope access and temporary systems."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Glazing",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Access-led glass replacement and maintenance",
-    "termsOfService": "https://www.proaltus.co.uk/services-individual/glazing",
-    "keywords": ["glass replacement", "glazing repair", "high level glazing", "building envelope"],
-    "description": "Safe and precise glazing works carried out via rope access, MEWPs and other compliant access systems."
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Roofing",
-    "provider": { "@type": "Organization", "name": "ProAltus Group" },
-    "serviceType": "Roof repair and maintenance across systems",
-    "termsOfService": "https://www.proaltus.co.uk/services-individual/roofing",
-    "keywords": ["roofing", "slate", "flat roof", "repair", "high access"],
-    "description": "High-level roofing services for slate, tiled and flat systems with full access planning and integrated fall protection."
-  }
-]
+  "services": [
+    {
+      "name": "Rope Access",
+      "url": "https://www.proaltus.co.uk",
+      "description": "IRATA-certified rope access services for facade works, surveys, repairs, cleaning, installation and maintenance across the UK. ProAltus deploy trained operatives to safely access any building or structure without costly scaffolding.",
+      "keywords": ["rope access", "IRATA", "abseil", "abseiling", "scaffold-free", "high level access", "rope access London", "rope access UK"]
+    },
+    {
+      "name": "Fall Protection Consultancy",
+      "url": "https://www.proaltus.co.uk/fall-protection-services/consultancy",
+      "description": "Strategic consultancy for designing and reviewing fall protection systems to meet BS 7883, BS EN 795 and Work at Height Regulations 2005.",
+      "keywords": ["fall protection consultancy", "BS 7883", "fall arrest", "work at height compliance", "risk assessment"]
+    },
+    {
+      "name": "Access Strategy & Design",
+      "url": "https://www.proaltus.co.uk/fall-protection-services/strategy-and-consultancy",
+      "description": "Bespoke access strategy and design for new developments and existing buildings. Works with architects, contractors and FM teams to plan safe long-term access to roofs and facades.",
+      "keywords": ["access strategy", "BS 8560", "CDM", "roof access planning", "facade access design", "access consultant"]
+    },
+    {
+      "name": "Fall Protection Supply, Installation & Certification",
+      "url": "https://www.proaltus.co.uk/fall-protection-services/design%2C-supply-and-installation",
+      "description": "Complete design, supply, installation and certification of permanent fall protection systems including eyebolts, horizontal lifelines, guardrails, fixed ladders and anchor points. Certified to EN 795 and BS 7883:2019.",
+      "keywords": ["fall protection installation", "eyebolt installation", "horizontal lifeline", "anchor installation", "BS EN 795", "permanent fall protection"]
+    },
+    {
+      "name": "Fall Protection Testing & Inspection",
+      "url": "https://www.proaltus.co.uk/fall-protection-services/inspection-and-testing",
+      "description": "Statutory inspection and testing of fixed fall protection systems. Full written reports and certification issued in compliance with BS 7883.",
+      "keywords": ["fall protection inspection", "anchor testing", "BS 7883 inspection", "6kN pull test", "fall protection certification", "LOLER inspection"]
+    },
+    {
+      "name": "Bespoke Debris Netting Solutions",
+      "url": "https://www.proaltus.co.uk/services-individual/bespoke-netting-solutions",
+      "description": "Custom-designed debris and safety netting systems for construction sites, shopping centres, public spaces and residential properties. Compliant with BS EN 1263.",
+      "keywords": ["debris netting", "safety netting", "tensioned netting", "BS EN 1263", "debris containment", "construction netting", "shopping centre netting"]
+    },
+    {
+      "name": "External Cleaning",
+      "url": "https://www.proaltus.co.uk/services-individual/external-cleaning",
+      "description": "High-level external cleaning via rope access including DOFF steam cleaning for historic and listed buildings, facade washing, curtain wall cleaning and window cleaning.",
+      "keywords": ["facade cleaning", "DOFF cleaning", "high level cleaning", "historic building cleaning", "listed building cleaning", "rope access cleaning", "window cleaning London"]
+    },
+    {
+      "name": "Glazing",
+      "url": "https://www.proaltus.co.uk/services-individual/glazing",
+      "description": "Access-led glazing services including glass replacement, sash window replacement, fire-rated glazing and curtain wall support via rope access.",
+      "keywords": ["high level glazing", "rope access glazing", "glass replacement", "sash window replacement", "fire rated glazing"]
+    },
+    {
+      "name": "Roofing",
+      "url": "https://www.proaltus.co.uk/services-individual/roofing",
+      "description": "Roof repair, replacement and restoration including slate, tiled and flat roof systems with integrated fall protection and access planning.",
+      "keywords": ["roofing", "roof repair", "roof replacement", "flat roof", "rope access roofing"]
+    },
+    {
+      "name": "Facilities Management Services",
+      "url": "https://www.proaltus.co.uk/services-main/facilities-management-services",
+      "description": "Planned preventative maintenance (PPM) and reactive building fabric maintenance for FM providers, property managers and managing agents.",
+      "keywords": ["facilities management", "PPM", "planned preventative maintenance", "reactive maintenance", "building maintenance"]
+    }
+  ],
+  "case_studies": [
+    {
+      "title": "Facade Lighting — The Dorchester Hotel, Park Lane, London",
+      "description": "Rope access installation of 27 luminaires across the south facade of The Dorchester Hotel. Temporary deadweight anchors, exclusion zones and out-of-hours working on this prestigious live site.",
+      "services": ["rope access", "facade works"], "location": "London, Park Lane"
+    },
+    {
+      "title": "Debris Netting — Whitgift Centre Redevelopment, Croydon, London",
+      "description": "Innovative bespoke tensioned netting system protecting shoppers during a £29 million retail redevelopment in Croydon, London.",
+      "services": ["debris netting"], "location": "London CR0"
+    },
+    {
+      "title": "Stone Cladding Installation — Carrington Street, Mayfair, London",
+      "description": "Rope access and spider crane operations for stone cladding at a super-prime Mayfair development with 28 luxury units. Client: Ardmore Construction.",
+      "services": ["rope access", "cladding"], "location": "London, Mayfair"
+    },
+    {
+      "title": "Roof Access Safety Upgrade — Watling Street, City of London",
+      "description": "Replacement of unsafe ladders and timber steps at a multi-level City of London commercial property with galvanised fixed ladders and non-penetrative guardrails.",
+      "services": ["fall protection", "roof access"], "location": "City of London"
+    },
+    {
+      "title": "Roof Access Safety Upgrade — Spring House, London NW5",
+      "description": "BS 4211-compliant fixed ladders, non-penetrative guardrails and level transitions at a multi-level commercial building in North London.",
+      "services": ["fall protection", "roof access"], "location": "London NW5"
+    },
+    {
+      "title": "Historic Building Restoration — Heals Building, Fitzrovia, London W1T",
+      "description": "DOFF cleaning and facade refurbishment of the iconic Heals Building including structural repairs to cladding, windows and gutters.",
+      "services": ["DOFF cleaning", "facade restoration"], "location": "London W1T"
+    },
+    {
+      "title": "DOFF Cleaning — Barnard's Inn, London EC4A",
+      "description": "Large-scale DOFF facade cleaning on historic listed buildings in EC4A. Weekend working to minimise tenant disruption. Client: Knight Frank.",
+      "services": ["DOFF cleaning", "listed building"], "location": "London EC4A"
+    },
+    {
+      "title": "Facade Cleaning — New Bond Street, Mayfair, London",
+      "description": "IRATA two-man team carrying out weed removal and external window decoration via temporary anchorage on a period Mayfair commercial property.",
+      "services": ["rope access", "facade cleaning"], "location": "London, Mayfair"
+    },
+    {
+      "title": "Facade Repairs & Debris Netting — Beaufort Gardens, Knightsbridge, London",
+      "description": "Bespoke tensioned debris netting and render repair via rope access at a prestigious Knightsbridge townhouse. Client: Faraday Property Management.",
+      "services": ["rope access", "debris netting", "render repair"], "location": "London, Knightsbridge"
+    },
+    {
+      "title": "Sash Window Replacement — Sloane Street, London SW1",
+      "description": "Rope access sash window replacement at a prestigious residential property managed by Cadogan Estates, avoiding costly scaffolding.",
+      "services": ["glazing", "rope access"], "location": "London SW1"
+    },
+    {
+      "title": "Fall Arrest Eyebolts — Temple, London",
+      "description": "Installation and certification of 80 fall arrest eyebolts with 6kN pull testing and Class A stainless steel eyebolts. Client: Avondale Construction.",
+      "services": ["fall arrest", "eyebolts"], "location": "London, Temple"
+    },
+    {
+      "title": "Roof Access & Fall Protection — Albert Street, London NW1",
+      "description": "Tailored roof access and fall protection design, installation and O&M documentation for a complex multi-level Central London building.",
+      "services": ["fall protection", "access strategy"], "location": "London NW1"
+    },
+    {
+      "title": "Fall Protection — Springfield Hospital, London SW17",
+      "description": "Fall protection design and installation for City & Country at Springfield Hospital SW17. Ladder restraints, mobile anchors and certified fixings installed in a single day.",
+      "services": ["fall protection"], "location": "London SW17"
+    },
+    {
+      "title": "Fire-Rated Glazing & Facade — CRS Green Park, Mayfair, London",
+      "description": "IRATA rope access for fire-rated glass replacement and cladding on a high-spec Mayfair office redevelopment. Client: Ardmore Construction / Erbay Aluminyum.",
+      "services": ["rope access", "fire-rated glazing", "cladding"], "location": "London, Mayfair"
+    },
+    {
+      "title": "Access Strategy — Crayford Development, London DA1",
+      "description": "Innovative access strategy for a 15-block East London development using hybrid systems and load-specific designs for London Square.",
+      "services": ["access strategy", "fall protection design"], "location": "London DA1"
+    },
+    {
+      "title": "PPM & Maintenance — St Christopher's Place, London W1",
+      "description": "Long-term PPM programme across prestigious Central London retail locations covering surveys, repairs, facade works and scheduled cleans.",
+      "services": ["PPM", "facilities management"], "location": "London W1"
+    },
+    {
+      "title": "Window Cleaning — Wembley Park Development, Greater London",
+      "description": "Abseiling window cleaning across multiple phases of the Wembley Park Development by John Sisk & Sons, including DOFF cleaning and snagging.",
+      "services": ["window cleaning", "DOFF cleaning"], "location": "Greater London, Wembley"
+    },
+    {
+      "title": "Facade Cleaning — Shelley House, London SW1V",
+      "description": "DOFF cleaning of curtain wall glazing and aluminium cladding at height, restoring the facade ahead of wider refurbishment. Client: Legendre.",
+      "services": ["DOFF cleaning", "facade cleaning"], "location": "London SW1V"
+    },
+    {
+      "title": "Rope Access — Martello Tower, Essex Coast",
+      "description": "IRATA rope access vegetation removal, mortar raking and repointing at the Grade II listed Jaywick Martello Tower with full heritage sensitivity.",
+      "services": ["rope access", "heritage", "repointing"], "location": "Essex Coast"
+    },
+    {
+      "title": "PPM & Maintenance — University of Essex, Colchester",
+      "description": "Long-term partnership providing planned maintenance, cleaning, inspections and reactive works across the University of Essex campus.",
+      "services": ["PPM", "facilities management"], "location": "Colchester, Essex"
+    },
+    {
+      "title": "10,000m² Glazing — Horizon Development, Jersey",
+      "description": "Rope access glazing team installing 10,000 square metres of glazing, doors and curtain walls at a waterfront development.",
+      "services": ["glazing", "rope access"], "location": "Jersey / Guernsey"
+    },
+    {
+      "title": "Roof & Facade Repairs — Holland Park, London W8",
+      "description": "Roof replacement and facade repair at a high-end Holland Park residential property via rope access with minimal disruption.",
+      "services": ["roofing", "facade repair"], "location": "London W8"
+    },
+    {
+      "title": "Kensington Odeon Redevelopment, London W8",
+      "description": "Rope access removal of 1,500m² of roofing and safe recovery of historic timber beams during conversion of the Kensington Odeon to luxury residences.",
+      "services": ["rope access", "roof removal"], "location": "London W8, Kensington"
+    },
+    {
+      "title": "Facade Restoration — Churchill House, Cardiff",
+      "description": "Facade cleaning, structural repairs and decorative re-coating at a landmark Cardiff city centre office. Crash deck gantries and safety netting. Client: Knight Frank.",
+      "services": ["facade restoration", "DOFF cleaning"], "location": "Cardiff"
+    },
+    {
+      "title": "Safety Inspections — SS Great Britain, Bristol",
+      "description": "Access strategy and comprehensive safety inspection on the historic SS Great Britain, part of the National Historic Fleet, for the SS Great Britain Trust.",
+      "services": ["access strategy", "safety inspection", "heritage"], "location": "Bristol"
+    }
+  ]
+}
